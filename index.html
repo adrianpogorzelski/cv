@@ -9,59 +9,103 @@
 
 <header class="flex">
     <h1>Adrian Pogorzelski</h1>
-    <nav>
+    <nav class="flex">
         <ul>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills-and-experience">My skills & experience</a></li>
-            <li><a href="#contact-details">Contact me</a></li>
+            <li><img class="icon" src="icons/poland.png"></li>
+            <li><img class="icon" src="icons/united-kingdom.png"></li>
+        </ul>
+        <ul>
+            <li><li><img class="icon" src="icons/pdf.png"></li></li>
         </ul>
     </nav>
 </header>
 
+<hr>
+
 <main>
     <section class="flex" id="about">
-            <img src="pic.jpg">
-            <div id="about-me-description">
-                <h2>About me</h2>
-                <p>Hi! I am <strong>Adrian Pogorzelski</strong>. I am a <strong>Technical Writer</strong>, and I have experience with a <strong>Scrum Master</strong> role. Additionally, I am currently studying <strong>front-end development</strong> in my spare time.</p>
-                <p>Personally, I am interested in:</p>
-                    <ul>
-                        <li>Guitar</li>
-                        <li>Fighting sports</li>
-                        <li>Physics & astronomy</li>
-                    </ul>
+        <img src="pic.jpg">
+        <article id="about-me-description">
+            <h2>About me</h2>
+            <p>Hi! I am <strong>Adrian Pogorzelski</strong>. I am a <strong>Technical Writer</strong>, and I have experience with a <strong>Scrum Master</strong> role. Additionally, I am currently studying <strong>front-end development</strong> in my spare time.</p>
+            <p>Personally, I am interested in:</p>
+            <ul>
+                <li>Guitar</li>
+                <li>Fighting sports</li>
+                <li>Physics & astronomy</li>
+                </ul>
+            <div class="flex">
+                <div id="contact-details">
+                    <h3>Contact</h3>
+                    <a href="tel:+48123456789"><img class="icon" src="icons/phone.png" alt="Phone">
+                        <a href="mailto:xx@xx.com"><img class="icon" src="icons/email.png" alt="e-mail"></a>
+                </div>
+                <div id="social-media">
+                    <h3>Social media</h3>
+                    <a target="_blank" href="https://www.linkedin.com/in/adrian-pogorzelski-b4a167154/"><img class="icon" src="icons/linkedin.png" alt="LinkedIn"></a>
+                </div>
             </div>
+        </article>
     </section>
 
-    <section id="skills-and-experience" class="flex"">
+    <br>
+    <hr>
+
+    <section id="resume">
         <article id="languages">
             <h2>Languages</h2>
-            <ul>
-                <li>Polish</li>
-                <li>English</li>
-                <li>Russian</li>
-                <li>Belarussian</li>
-                <li>German</li>
-                <li>Spanish</li>
-            </ul>
+            <div class="flex">
+                <div>
+                    <img class="icon" src="icons/poland.png">
+                    <p>Polish</p>
+                </div>
+                <div>
+                    <img class="icon" src="icons/united-kingdom.png">
+                    <p>English</p>
+                </div>
+                <div>
+                    <img class="icon" src="icons/russia.png">
+                    <p>Russian</p>
+                </div>
+                <div>
+                    <img class="icon" src="icons/belarus.png">
+                    <p>Belarussian</p>
+                </div>
+                <div>
+                    <img class="icon" src="icons/germany.png">
+                    <p>German</p>
+                </div>
+                <div>
+                    <img class="icon" src="icons/spain.png">
+                    <p>Spanish</p>
+                </div>
+            </div>
         </article>
 
         <article id="skills">
             <h2>Skills</h2>
-            <ul>
-                <li>Word</li>
-                <li>Excel</li>
-                <li>PowerPoint</li>
-            </ul>
-            <ul>
-                <li>DITA</li>
-            </ul>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>VBA</li>
-            </ul>
+
+            <div class="flex">
+                <div>
+                <h3>MS Office</h3>
+                    <p><img class="icon" src="icons/excel.png"> Excel</p>
+                    <p><img class="icon" src="icons/powerpoint.png"> PowerPoint</p>
+                    <p><img class="icon" src="icons/teams.png"> Teams</p>
+                    <p><img class="icon" src="icons/word.png"> Word</p>
+                </div>
+
+                <ul>
+                    <li>DITA</li>
+                </ul>
+
+                <div>
+                <h3>Programming</h3>
+                    <p><img class="icon" src="icons/html-5.png"> HTML</p>
+                    <p><img class="icon" src="icons/css.png"> CSS</p>
+                    <p><img class="icon" src="icons/javascript.png"> JavaScript</p>
+                    <p><img class="icon" src="icons/excel.png"> VBA</p>
+                </div>
+            </div>
         </article>
 
         <article id="certificates">
@@ -79,23 +123,13 @@
                 <li>IBM</li>
             </ul>
         </article>
-
     </section>
+
 </main>
 
 <footer>
-    <h2>Contact</h2>
-    <section  class="flex">
-        <div id="contact-details">
-            <h3>Contact info</h3>
-            <p><a href="tel:+48123456789">(+48) 123 456 789</p>
-            <p><a href="mailto:xx@xx.com">e-mail</a></p>
-        </div>
-        <div id="social-media">
-            <h3>Social media</h3>
-            <p><a target="_blank" href="https://www.linkedin.com/in/adrian-pogorzelski-b4a167154/">LinkedIn</a></p>
-        </div>
-    </section>
+    <p><a href="#about">Back to top</a></p>
+    <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
 </footer>
 </body>
 <script type="text/javascript" src="javascript.js"></script>
